@@ -20,6 +20,8 @@ class MyApp extends StatelessWidget {
             /*1*/
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              //cross : 
+              //main : 
               children: [
                 /*2*/
                 Container(
@@ -73,6 +75,7 @@ class MyApp extends StatelessWidget {
             'lake, which warms to 20 degrees Celsius in the summer. Activities '
             'enjoyed here include rowing, and riding the summer toboggan run.',
         softWrap: true,
+        textAlign: TextAlign.justify,
       ),
     );
 
