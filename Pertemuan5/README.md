@@ -3,8 +3,8 @@
 ### Layout dan Responsive Apps
 
 
-- Pavlova[Layout in Flutter](https://flutter.dev/docs/development/ui/layout).
+- Pavlova - [Layout in Flutter](https://flutter.dev/docs/development/ui/layout).
 
-- LayoutBuilder class[Layout in Flutter](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html).
+- LayoutBuilder class -  [Layout in Flutter](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html).
 
 
