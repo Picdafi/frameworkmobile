@@ -4,5 +4,7 @@
 
 - [Tugas 24 September sebelum jam 21.00](https://github.com/Picdafi/frameworkmobile/tree/master/Pertemuan3).
 
-- [Tugas 28 Oktober](https://github.com/Picdafi/frameworkmobile/tree/master/Pertemuan5).
+- [Tugas 8 Oktober](https://github.com/Picdafi/frameworkmobile/tree/master/Pertemuan5).
+
+- [Tugas 15 Oktober](https://github.com/Picdafi/frameworkmobile/tree/master/Pertemuan6).
 
