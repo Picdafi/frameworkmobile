@@ -109,7 +109,7 @@ class DetailPage extends StatelessWidget {
           onPressed: () => {},
           color: Color.fromRGBO(58, 66, 86, 1.0),
           child:
-          Text("TAKE THIS LESSON", style: TextStyle(color: Colors.white)),
+          Text("Mulai", style: TextStyle(color: Colors.white)),
         ));
     final bottomContent = Container(
       width: MediaQuery.of(context).size.width,

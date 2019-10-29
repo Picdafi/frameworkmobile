@@ -174,35 +174,35 @@ List getLessons() {
         "Pembelajaran sintaksis dasar Dart bisa dimulai dengan pengenalan Struktur dasar dan konsep penting program Dart, kata kunci(keyword), variabel : var, final, const dan di ikuti tipe data yang digunakan, Fungsi/Function, Operator serta pengendali alur program serta error dan exception handling. "),
     Lesson(
         title: "OOP pada Dart",
-        level: "Intermidiate",
+        level: "Menengah",
         indicatorValue: 0.66,
         price: 30,
         content:
         "OOP merupakan kepanjangan dari Object Oriented Programming. Pada proses ini tahapan yang dipelajari bisa dimulai dari pengertian OOP dan pola pikir objek, Class pada Dart, Konstruktor, Tipe objek, variabel instance, Getter dan Setter, method, kelas abstrak, interface, extend kelas dan mixins. "),
     Lesson(
         title: "Asynchronous Programming, Konkurensi dan Tooling",
-        level: "Intermidiate",
+        level: "Menengah",
         indicatorValue: 0.66,
         price: 30,
         content:
         "Asynchronous programming mulai dari pengertian hingga kelas Future dan Stream yang ada didalamnya, Konkurensi mulai dari pengertian dan penggunaan isolates. Pemahaman tentang Dart Platform, command line tools, Pub untuk Package manager serta Effective Dart. "),
     Lesson(
         title: "Memulai Flutter",
-        level: "Advanced",
+        level: "Lanjutan",
         indicatorValue: 1.0,
         price: 50,
         content:
         "Pertama bisa mempelajari tentang pengelanan Flutter. Selanjutnya bisa dilakukan instalasi flutter serta setup dan konfigurasi peranti pengembangan. Mencoba membangun aplikasi serta mengenal material design yang digunakan untuk mendukung dalam proses pembuatan aplikasi. "),
     Lesson(
         title: "Mengenal Widgets dan Layout",
-        level: "Advanced",
+        level: "Lanjutan",
         indicatorValue: 1.0,
         price: 50,
         content:
         "Pembelajaran pertama bisa dengan cara mengenal pengertian widgets pada flutter, cara implementasi selain itu juga layout widgets untuk aplikasi flutter apa saja, lebih lanjutnya adalah dengan interaktifitas aplikasi. "),
     Lesson(
         title: "Assets, Navigasi dan Animasi",
-        level: "Advanced",
+        level: "Lanjutan",
         indicatorValue: 1.0,
         price: 50,
         content:
