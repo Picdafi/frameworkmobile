@@ -9,9 +9,9 @@ class DetailPage extends StatelessWidget {
     final levelIndicator = Container(
       child: Container(
         child: LinearProgressIndicator(
-            backgroundColor: Colors.greenAccent,
+            backgroundColor: Colors.blue,
             value: lesson.indicatorValue,
-            valueColor: AlwaysStoppedAnimation(Colors.green)),
+            valueColor: AlwaysStoppedAnimation(Colors.greenAccent)),
       ),
     );
 
@@ -71,7 +71,7 @@ class DetailPage extends StatelessWidget {
             height: MediaQuery.of(context).size.height * 0.5,
             decoration: new BoxDecoration(
               image: new DecorationImage(
-                image: new AssetImage("assets/resto.png"),
+                image: new AssetImage("assets/flutter.png"),
                 fit: BoxFit.cover,
               ),
             )),

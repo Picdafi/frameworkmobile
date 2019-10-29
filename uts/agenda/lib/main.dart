@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Flutter Demo',
       theme: new ThemeData(
-          primaryColor: Colors.green, fontFamily: 'Raleway'),
-      home: new ListPage(title: 'Lessons'),
+          primaryColor: Colors.green),
+      home: new ListPage(title: 'Tahap Belajar'),
       // home: DetailPage(),
     );
   }
@@ -46,7 +46,7 @@ class _ListPageState extends State<ListPage> {
         decoration: new BoxDecoration(
             border: new Border(
                 right: new BorderSide(width: 1.0, color: Colors.white))),
-        child: Icon(Icons.autorenew, color: Colors.white),
+        child: Icon(Icons.book, color: Colors.white),
       ),
       title: Text(
         lesson.title,
@@ -61,7 +61,7 @@ class _ListPageState extends State<ListPage> {
               child: Container(
                 // tag: 'hero',
                 child: LinearProgressIndicator(
-                    backgroundColor: Color.fromRGBO(209, 224, 224, 0.2),
+                    backgroundColor: Colors.blue,
                     value: lesson.indicatorValue,
                     valueColor: AlwaysStoppedAnimation(Colors.green)),
               )),
@@ -117,17 +117,19 @@ class _ListPageState extends State<ListPage> {
               onPressed: () {},
             ),
             IconButton(
-              icon: Icon(Icons.blur_on, color: Colors.white),
+              icon: Icon(Icons.book, color: Colors.white),
               onPressed: () {},
             ),
-            IconButton(
-              icon: Icon(Icons.hotel, color: Colors.white),
+           IconButton(
+              icon: Icon(Icons.note, color: Colors.white),
               onPressed: () {},
             ),
             IconButton(
               icon: Icon(Icons.account_box, color: Colors.white),
-              onPressed: () {},
-            )
+//              onPressed: () {MyProfil();},
+//                onPressed: () => Navigator.pop(context, MyProfil),
+            onPressed: () {},
+            ),
           ],
         ),
       ),
@@ -145,7 +147,8 @@ class _ListPageState extends State<ListPage> {
     );
 
     return Scaffold(
-      backgroundColor: Color.fromRGBO(58, 66, 86, 1.0),
+      backgroundColor: Colors.blue,
+     // fromRGBO(58, 66, 86, 1.0)
       appBar: topAppBar,
       body: makeBody,
       bottomNavigationBar: makeBottom,
@@ -156,53 +159,53 @@ class _ListPageState extends State<ListPage> {
 List getLessons() {
   return [
     Lesson(
-        title: "contoh 1",
-        level: "Beginner",
+        title: "Memulai Dart",
+        level: "Pemula",
         indicatorValue: 0.33,
         price: 20,
         content:
-        "Start by taking a couple of minutes to read the info in this section. Launch your app and click on the Settings menu.  While on the settings page, click the Save button.  You should see a circular progress indicator display in the middle of the page and the user interface elements cannot be clicked due to the modal barrier that is constructed."),
+        "Untuk mengawali bisa dilakukan dengan cara mengenal bahasa Dart, ruang lingkup aplikasi Dart, cara instalasi Dart, Dart tools, Konfigurasi IDE."),
     Lesson(
-        title: "contoh 1",
-        level: "Beginner",
+        title: "Sintaksis Dasar Dart",
+        level: "Pemula",
         indicatorValue: 0.33,
         price: 50,
         content:
-        "Start by taking a couple of minutes to read the info in this section. Launch your app and click on the Settings menu.  While on the settings page, click the Save button.  You should see a circular progress indicator display in the middle of the page and the user interface elements cannot be clicked due to the modal barrier that is constructed."),
+        "Pembelajaran sintaksis dasar Dart bisa dimulai dengan pengenalan Struktur dasar dan konsep penting program Dart, kata kunci(keyword), variabel : var, final, const dan di ikuti tipe data yang digunakan, Fungsi/Function, Operator serta pengendali alur program serta error dan exception handling. "),
     Lesson(
-        title: "contoh 1",
+        title: "OOP pada Dart",
         level: "Intermidiate",
         indicatorValue: 0.66,
         price: 30,
         content:
-        "Start by taking a couple of minutes to read the info in this section. Launch your app and click on the Settings menu.  While on the settings page, click the Save button.  You should see a circular progress indicator display in the middle of the page and the user interface elements cannot be clicked due to the modal barrier that is constructed."),
+        "OOP merupakan kepanjangan dari Object Oriented Programming. Pada proses ini tahapan yang dipelajari bisa dimulai dari pengertian OOP dan pola pikir objek, Class pada Dart, Konstruktor, Tipe objek, variabel instance, Getter dan Setter, method, kelas abstrak, interface, extend kelas dan mixins. "),
     Lesson(
-        title: "Reversing around the corner",
+        title: "Asynchronous Programming, Konkurensi dan Tooling",
         level: "Intermidiate",
         indicatorValue: 0.66,
         price: 30,
         content:
-        "Start by taking a couple of minutes to read the info in this section. Launch your app and click on the Settings menu.  While on the settings page, click the Save button.  You should see a circular progress indicator display in the middle of the page and the user interface elements cannot be clicked due to the modal barrier that is constructed."),
+        "Asynchronous programming mulai dari pengertian hingga kelas Future dan Stream yang ada didalamnya, Konkurensi mulai dari pengertian dan penggunaan isolates. Pemahaman tentang Dart Platform, command line tools, Pub untuk Package manager serta Effective Dart. "),
     Lesson(
-        title: "Incorrect Use of Signal",
+        title: "Memulai Flutter",
         level: "Advanced",
         indicatorValue: 1.0,
         price: 50,
         content:
-        "Start by taking a couple of minutes to read the info in this section. Launch your app and click on the Settings menu.  While on the settings page, click the Save button.  You should see a circular progress indicator display in the middle of the page and the user interface elements cannot be clicked due to the modal barrier that is constructed."),
+        "Pertama bisa mempelajari tentang pengelanan Flutter. Selanjutnya bisa dilakukan instalasi flutter serta setup dan konfigurasi peranti pengembangan. Mencoba membangun aplikasi serta mengenal material design yang digunakan untuk mendukung dalam proses pembuatan aplikasi. "),
     Lesson(
-        title: "Engine Challenges",
+        title: "Mengenal Widgets dan Layout",
         level: "Advanced",
         indicatorValue: 1.0,
         price: 50,
         content:
-        "Start by taking a couple of minutes to read the info in this section. Launch your app and click on the Settings menu.  While on the settings page, click the Save button.  You should see a circular progress indicator display in the middle of the page and the user interface elements cannot be clicked due to the modal barrier that is constructed."),
+        "Pembelajaran pertama bisa dengan cara mengenal pengertian widgets pada flutter, cara implementasi selain itu juga layout widgets untuk aplikasi flutter apa saja, lebih lanjutnya adalah dengan interaktifitas aplikasi. "),
     Lesson(
-        title: "Self Driving Car",
+        title: "Assets, Navigasi dan Animasi",
         level: "Advanced",
         indicatorValue: 1.0,
         price: 50,
         content:
-        "Start by taking a couple of minutes to read the info in this section. Launch your app and click on the Settings menu.  While on the settings page, click the Save button.  You should see a circular progress indicator display in the middle of the page and the user interface elements cannot be clicked due to the modal barrier that is constructed.  ")
+        "Bisa dimulai dengan memahami assets, baik berupa images maupun bukan images dilanjutkan dengan pengeloaan assets, ikon aplikasi, launch screen, memahami navigasi, mengelola routes. Untuk animasi bisa dipahami dulu dasar - dasar animasi, hero animations, staggered animations, serta widget di flutter untuk animasi dan motion  ")
   ];
 }

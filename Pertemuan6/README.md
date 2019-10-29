@@ -1,10 +1,7 @@
-## TUGAS Pertemuan 5
+## TUGAS Pertemuan 6
 
-### Layout dan Responsive Apps
+### Drawer, Snackbar, Tabs, Screen and Back, Navigate with name Routes
 
 
-- Pavlova - [Layout in Flutter](https://flutter.dev/docs/development/ui/layout).
-
-- LayoutBuilder class -  [Layout in Flutter](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html).
 
 

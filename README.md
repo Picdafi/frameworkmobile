@@ -8,3 +8,6 @@
 
 - [Tugas 15 Oktober](https://github.com/Picdafi/frameworkmobile/tree/master/Pertemuan6).
 
+- [UTS](https://github.com/Picdafi/frameworkmobile/tree/master/uts).
+
+
