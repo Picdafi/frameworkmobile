@@ -1,3 +1,3 @@
-# FRAMEWOK MOBILE WITH FLUTTER
+# Ini adalah folder tugas akhir UAS
 
-### Dokumentasi selama mengikuti mata kuliah Framework Mobile dengan Dosen Bapak Pius Anggoro
+### Tugas UAS yang dikumpulkan ada di folder appmovie
