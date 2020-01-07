@@ -12,12 +12,11 @@ abstract class BaseAuth{
 
   Future<void> signOut();
 
-
   Future<bool> isEmailVerfied();
 
 }
 
-class Auth implements BaseAuth{
+abstract class Auth implements BaseAuth{
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
   Future<String> signIn(String email, String password) async{
